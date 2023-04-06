@@ -2,11 +2,11 @@
         <h2 class="pt-4 text-center"><?php echo $mode ?> une Nationalitée</h2>
         <form action="index.php?uc=nationalite&action=valide" method="post" class="col-md-6 offset-md-3">
             <div class="form-group">
-                <label for='libelle' > Nationalité </label>
+                <label for='libelle' > Nationalitée : </label>
                 <input type="text" class='form-control' id='libelle' placehoder='Saisir la nationalité' name='libelle' value="<?php     if ($mode == "Modifier") { echo $laNationalite->getLibelle(); } ?>">
             </div>
             <div class="form-group">
-                <label for='continent' > Continent </label>
+                <label for='continent' > Continent : </label>
                 <select name="continent" class='form-control'>
 
                     <?php

@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="container mt-4">
       <div class="row pt-4">
         <div class="col-9"><h2>Liste des Nationalités</h2></div>
         <div class="col-3"><a href="index.php?uc=nationalite&action=add" class='btn btn-success'><i class="fas fa-plus-circle"></i>Créer une Nationalité</a></div>
